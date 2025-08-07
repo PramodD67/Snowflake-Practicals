@@ -1,0 +1,12 @@
+merge into tgt_tbl t
+using str s 
+on s.id=t.id
+
+when matched and metadata$action='INSERT' and metadata$isupdate='TRUE' then 
+ update set ...
+
+when not matched and metadata$action='INSERT' and metadata$isupdate='FALSE' then
+insert ( id, name , sal) values(100.'mam',3493)
+
+when matched and metadata$action='DELETE' and metadata$isupdate='FALSE' then
+Delete
