@@ -1,0 +1,527 @@
+[
+  {
+    "CUSTOMER_KEY": 90001,
+    "NAME": "Annette Anderson",
+    "PHONE": "(621)683-7574x25585",
+    "ADDRESS": {
+      "street": "04391 Ball Lakes Apt. 616",
+      "city": "Port Misty",
+      "zip": "83397"
+    },
+    "ORDERS": [
+      {
+        "order_id": "4fbe8275-403d-4748-bf4f-eff1d8c643cb",
+        "amount": 302.9,
+        "date": "2025-03-07"
+      },
+      {
+        "order_id": "0622ad76-2411-4b7f-9946-1a4005fcf93c",
+        "amount": 231.11,
+        "date": "2024-10-17"
+      },
+      {
+        "order_id": "c607d499-a134-4987-9c5b-1626ecad3df1",
+        "amount": 667.66,
+        "date": "2025-02-18"
+      },
+      {
+        "order_id": "f41dd454-e007-4e04-9d01-ba69f0f32810",
+        "amount": 921.72,
+        "date": "2025-08-04"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90002,
+    "NAME": "Ashley Harris",
+    "PHONE": "576-784-7310x22304",
+    "ADDRESS": {
+      "street": "73109 Burton Motorway",
+      "city": "East Morgan",
+      "zip": "52838"
+    },
+    "ORDERS": [
+      {
+        "order_id": "1f7512bc-6341-42f8-ac8a-dfb5c4babe0f",
+        "amount": 445.08,
+        "date": "2024-09-15"
+      },
+      {
+        "order_id": "728107f8-81af-4f8f-b727-92aa4166a9a7",
+        "amount": 980.54,
+        "date": "2025-05-18"
+      },
+      {
+        "order_id": "0c70feae-eace-439b-bb01-2e152b9f0781",
+        "amount": 388.27,
+        "date": "2025-05-13"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90003,
+    "NAME": "Sonia Johnson",
+    "PHONE": "999-271-2634x6967",
+    "ADDRESS": {
+      "street": "5360 Julia Gateway",
+      "city": "Donaldfort",
+      "zip": "69352"
+    },
+    "ORDERS": [
+      {
+        "order_id": "6a813efe-c8ae-46e5-8a4c-de2f62812391",
+        "amount": 132.44,
+        "date": "2024-09-09"
+      },
+      {
+        "order_id": "7325e11c-ce8a-48b3-ae92-5e4f7090d14d",
+        "amount": 890.58,
+        "date": "2024-09-20"
+      },
+      {
+        "order_id": "4678cfe6-e76f-423b-9946-edc5ca996e38",
+        "amount": 498.29,
+        "date": "2025-03-31"
+      },
+      {
+        "order_id": "0526308d-8ee0-4d97-89ca-95ce252d082e",
+        "amount": 75.99,
+        "date": "2024-08-23"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90004,
+    "NAME": "Miguel Meyer",
+    "PHONE": "+1-314-275-1977",
+    "ADDRESS": {
+      "street": "4978 Manning Mills",
+      "city": "Phillipstown",
+      "zip": "36844"
+    },
+    "ORDERS": [
+      {
+        "order_id": "4ebf1314-de7a-4f37-b8f5-44e369cfaff2",
+        "amount": 704.85,
+        "date": "2025-01-19"
+      },
+      {
+        "order_id": "e14a145d-74d7-4835-882d-969eb3ada9a3",
+        "amount": 426.48,
+        "date": "2024-08-30"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90005,
+    "NAME": "Robert Cook",
+    "PHONE": "001-929-604-4811x9276",
+    "ADDRESS": {
+      "street": "269 Sean Orchard",
+      "city": "North Robert",
+      "zip": "95244"
+    },
+    "ORDERS": [
+      {
+        "order_id": "77ee45b4-79dc-4c15-97d4-4d3e63648325",
+        "amount": 600.41,
+        "date": "2025-08-08"
+      },
+      {
+        "order_id": "3aa0d4f3-88dc-48d4-b087-012edbaf9be4",
+        "amount": 528.23,
+        "date": "2024-12-12"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90006,
+    "NAME": "Alice Owen",
+    "PHONE": "+1-687-311-0910x364",
+    "ADDRESS": {
+      "street": "6843 Jessica Ways Suite 140",
+      "city": "Port Danielberg",
+      "zip": "19771"
+    },
+    "ORDERS": [
+      {
+        "order_id": "cbed12ae-95e1-4a43-ac15-9789b17d3cb5",
+        "amount": 552.44,
+        "date": "2025-04-25"
+      },
+      {
+        "order_id": "b448c839-a8fc-45e7-9097-4cf5a7778564",
+        "amount": 654.92,
+        "date": "2024-10-16"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90007,
+    "NAME": "Mrs. Kristen Dudley",
+    "PHONE": "383.890.8986x0914",
+    "ADDRESS": {
+      "street": "1304 Phillips Point Apt. 746",
+      "city": "South Brandiside",
+      "zip": "65186"
+    },
+    "ORDERS": [
+      {
+        "order_id": "d3194f62-8c50-426d-ba5a-7963a2e59506",
+        "amount": 865.36,
+        "date": "2024-08-14"
+      },
+      {
+        "order_id": "dfb477ba-9507-4260-be02-7359bfee1d3b",
+        "amount": 872.75,
+        "date": "2024-12-12"
+      },
+      {
+        "order_id": "cab69bb9-b7b1-4736-9a44-40c2cd6d5d80",
+        "amount": 367.83,
+        "date": "2025-02-16"
+      },
+      {
+        "order_id": "ff053246-8dff-47e3-b929-f4b857670a07",
+        "amount": 976.02,
+        "date": "2025-07-18"
+      },
+      {
+        "order_id": "7dcf097c-2c2b-4027-ad98-681e79bed54f",
+        "amount": 515.56,
+        "date": "2025-07-23"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90008,
+    "NAME": "Joshua Powell",
+    "PHONE": "903-431-6276",
+    "ADDRESS": {
+      "street": "27656 Michael Overpass",
+      "city": "West Ashley",
+      "zip": "80412"
+    },
+    "ORDERS": [
+      {
+        "order_id": "bf957d57-2d07-45af-a0cb-6d6c065d712a",
+        "amount": 87.99,
+        "date": "2025-07-28"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90009,
+    "NAME": "Kendra Davis",
+    "PHONE": "343-903-1187x2284",
+    "ADDRESS": {
+      "street": "28147 Robinson Manor Apt. 667",
+      "city": "East Amybury",
+      "zip": "72037"
+    },
+    "ORDERS": [
+      {
+        "order_id": "595af575-7f9d-4917-829b-6d18a301f0b9",
+        "amount": 961.42,
+        "date": "2025-01-22"
+      },
+      {
+        "order_id": "19d1be37-f9a3-4b93-9096-4f8dd53c571b",
+        "amount": 746.33,
+        "date": "2025-06-28"
+      },
+      {
+        "order_id": "50b307ad-66ab-48d3-ab3c-79704c65c923",
+        "amount": 430.5,
+        "date": "2025-04-12"
+      },
+      {
+        "order_id": "da85ff8f-068e-415f-a9bb-6fb09cf24a45",
+        "amount": 574.6,
+        "date": "2025-02-23"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90010,
+    "NAME": "Edward Arroyo",
+    "PHONE": "290-883-7815",
+    "ADDRESS": {
+      "street": "352 Christina Key Suite 648",
+      "city": "North Robertland",
+      "zip": "09792"
+    },
+    "ORDERS": [
+      {
+        "order_id": "d0d25f0a-5788-442b-bf86-45d70b270205",
+        "amount": 212.04,
+        "date": "2025-08-10"
+      },
+      {
+        "order_id": "e5cb3048-5061-4b56-abe6-10420832ba0e",
+        "amount": 374.83,
+        "date": "2024-08-31"
+      },
+      {
+        "order_id": "58741834-0baf-42c4-971a-055230b475be",
+        "amount": 233.3,
+        "date": "2025-04-19"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90011,
+    "NAME": "Tonya Franklin",
+    "PHONE": "710-222-5511x2513",
+    "ADDRESS": {
+      "street": "727 Floyd Way",
+      "city": "Tammyville",
+      "zip": "14128"
+    },
+    "ORDERS": [
+      {
+        "order_id": "8a28f9c5-cdc2-4dc1-a264-d588851fc113",
+        "amount": 390.89,
+        "date": "2024-12-31"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90012,
+    "NAME": "Nathaniel Munoz",
+    "PHONE": "968-318-9638x2436",
+    "ADDRESS": {
+      "street": "54664 Rhodes Pass",
+      "city": "North Rickyside",
+      "zip": "15791"
+    },
+    "ORDERS": [
+      {
+        "order_id": "45461feb-e5ce-45ad-bab7-7d8a281ec8c5",
+        "amount": 572.3,
+        "date": "2025-03-17"
+      },
+      {
+        "order_id": "8fe69af4-9c54-4801-a0fe-ae3abc5173ea",
+        "amount": 675.45,
+        "date": "2025-04-02"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90013,
+    "NAME": "Dave Stewart DVM",
+    "PHONE": "(631)379-6743",
+    "ADDRESS": {
+      "street": "8518 Lisa Junctions Apt. 118",
+      "city": "Kimberlyhaven",
+      "zip": "28162"
+    },
+    "ORDERS": [
+      {
+        "order_id": "39cf7e49-a66b-4456-a697-1950cba4c2ea",
+        "amount": 675.51,
+        "date": "2024-09-27"
+      },
+      {
+        "order_id": "9c9c40a7-4230-4e67-b3ed-b8fd741e64ec",
+        "amount": 951.62,
+        "date": "2024-11-22"
+      },
+      {
+        "order_id": "f56663da-da5a-430e-aafc-6037ec8f9273",
+        "amount": 217.97,
+        "date": "2024-09-13"
+      },
+      {
+        "order_id": "3c150594-b4e8-425b-8398-381c957fdef0",
+        "amount": 560.94,
+        "date": "2025-02-27"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90014,
+    "NAME": "Tony Mitchell",
+    "PHONE": "+1-299-744-1249x5440",
+    "ADDRESS": {
+      "street": "25179 Collins Street Apt. 898",
+      "city": "Aaronburgh",
+      "zip": "14913"
+    },
+    "ORDERS": [
+      {
+        "order_id": "e3b98069-ee6c-44e6-b3a4-926c8323d5de",
+        "amount": 985.18,
+        "date": "2025-04-30"
+      },
+      {
+        "order_id": "acaa68ec-6398-4dd1-ba79-b090e0c78551",
+        "amount": 592.75,
+        "date": "2025-02-28"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90015,
+    "NAME": "Patricia Gordon",
+    "PHONE": "(928)764-7050x844",
+    "ADDRESS": {
+      "street": "759 Jacob Summit Suite 919",
+      "city": "North Jonathan",
+      "zip": "84514"
+    },
+    "ORDERS": [
+      {
+        "order_id": "82508ada-d898-49de-b613-69136735e366",
+        "amount": 989.88,
+        "date": "2025-02-19"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90016,
+    "NAME": "Kristen Bowers",
+    "PHONE": "+1-609-609-2119x5945",
+    "ADDRESS": {
+      "street": "258 Donna Vista Apt. 036",
+      "city": "New Jennifer",
+      "zip": "14654"
+    },
+    "ORDERS": [
+      {
+        "order_id": "9edee8e4-a0f3-484f-a7f5-b0674e25c701",
+        "amount": 593.34,
+        "date": "2025-03-20"
+      },
+      {
+        "order_id": "dc280ac7-0e90-417d-8e53-64b608db6f4d",
+        "amount": 190.64,
+        "date": "2025-06-16"
+      },
+      {
+        "order_id": "484b4adb-1025-40c3-b21e-3b91fd23704d",
+        "amount": 110.04,
+        "date": "2024-12-07"
+      },
+      {
+        "order_id": "34cc413a-780f-41ed-b678-3ea44e1c6c47",
+        "amount": 834.0,
+        "date": "2024-11-06"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90017,
+    "NAME": "Justin Christian",
+    "PHONE": "4793291834",
+    "ADDRESS": {
+      "street": "5788 Murray Locks Apt. 905",
+      "city": "Lake Antonio",
+      "zip": "24501"
+    },
+    "ORDERS": [
+      {
+        "order_id": "a3967957-d4a1-427e-bbba-60f8bc644b82",
+        "amount": 493.8,
+        "date": "2025-07-05"
+      },
+      {
+        "order_id": "f862fe23-6c8f-4081-8c94-26a5997b3581",
+        "amount": 510.75,
+        "date": "2024-10-18"
+      },
+      {
+        "order_id": "4b34a942-8600-4c81-8026-295db573b814",
+        "amount": 340.03,
+        "date": "2025-07-08"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90018,
+    "NAME": "Kurt Stewart",
+    "PHONE": "(392)419-9241",
+    "ADDRESS": {
+      "street": "3580 Beasley Underpass Apt. 735",
+      "city": "Nancyland",
+      "zip": "79205"
+    },
+    "ORDERS": [
+      {
+        "order_id": "48f8ee84-9557-458f-bd76-c7bbfb256d37",
+        "amount": 716.58,
+        "date": "2024-12-29"
+      },
+      {
+        "order_id": "54909437-0f90-47c8-a15f-e2f82f50b9ee",
+        "amount": 560.02,
+        "date": "2025-05-22"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90019,
+    "NAME": "William Herrera",
+    "PHONE": "305-440-2390",
+    "ADDRESS": {
+      "street": "33785 Andre Ferry Apt. 578",
+      "city": "New Nicoleton",
+      "zip": "37807"
+    },
+    "ORDERS": [
+      {
+        "order_id": "3a0de3f9-ca09-48a3-85d4-2feffc2f214a",
+        "amount": 526.9,
+        "date": "2025-04-14"
+      },
+      {
+        "order_id": "4b8dffd0-973a-4672-a459-854cd96bd865",
+        "amount": 331.42,
+        "date": "2025-08-05"
+      },
+      {
+        "order_id": "4a5aa82b-5646-4abc-aaa8-a04bd319fdf7",
+        "amount": 927.92,
+        "date": "2024-08-21"
+      }
+    ]
+  },
+  {
+    "CUSTOMER_KEY": 90020,
+    "NAME": "Michele Benitez",
+    "PHONE": "001-430-732-0646x8697",
+    "ADDRESS": {
+      "street": "5861 Caroline Skyway Suite 063",
+      "city": "East Meghan",
+      "zip": "65223"
+    },
+    "ORDERS": [
+      {
+        "order_id": "23127628-bdb0-4be6-bd66-b4d342b4e7f7",
+        "amount": 709.76,
+        "date": "2025-01-12"
+      },
+      {
+        "order_id": "50bb5c6c-8cc7-4acf-9032-fd48908f0c0f",
+        "amount": 983.04,
+        "date": "2025-01-22"
+      },
+      {
+        "order_id": "6a12faa7-c75f-461f-9d18-42c3db99b37c",
+        "amount": 956.67,
+        "date": "2024-11-15"
+      },
+      {
+        "order_id": "b8cb1941-f36f-4363-8e8c-25ccaf2c9a85",
+        "amount": 63.44,
+        "date": "2025-06-20"
+      },
+      {
+        "order_id": "50fc595e-bdfe-4dd3-a31a-90f594e5ca95",
+        "amount": 212.07,
+        "date": "2024-10-01"
+      }
+    ]
+  }
+]
