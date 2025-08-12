@@ -1,1 +1,35 @@
-list @stg_ext_dbt;create file format ff_parqtype='parquet';create stage stg_ext_parqueturl='s3://pramoddbt-bucket/dbt_files_parquet/'storage_integration=mys3file_format= (Format_name='ff_parq');list @stg_ext_parquet;select * from @stg_ext_parquet(file_format=>'ff_parq');select * from table ( infer_schema( location=>'@stg_ext_parquet', file_format=>'ff_parq'));select * from table (infer_schema( location=>'@stg_ext_csv' , file_format=>'csv_ff'));select $1:model::TEXT,$1:mpg::REAL,$1:cyl::NUMBER(38, 0),$1:disp::REAL,$1:hp::NUMBER(38, 0),$1:drat::REAL,$1:wt::REAL,$1:qsec::REAL,$1:vs::NUMBER(38, 0),$1:am::NUMBER(38, 0),$1:gear::NUMBER(38, 0),$1:carb::NUMBER(38, 0)from @stg_ext_parquet (file_format=>'ff_parq');
+list @stg_ext_dbt;
+
+create file format ff_parq
+type='parquet';
+
+create stage stg_ext_parquet
+url='s3://pramoddbt-bucket/dbt_files_parquet/'
+storage_integration=mys3
+file_format= (Format_name='ff_parq');
+
+list @stg_ext_parquet;
+
+select * from @stg_ext_parquet
+(file_format=>'ff_parq');
+
+select * from table ( infer_schema( location=>'@stg_ext_parquet', file_format=>'ff_parq'));
+select * from table (infer_schema( location=>'@stg_ext_csv' , file_format=>'csv_ff'));
+
+select 
+metadata$filename,
+metadata$file_row_number
+$1:model::TEXT,
+$1:mpg::REAL,
+$1:cyl::NUMBER(38, 0),
+$1:disp::REAL,
+$1:hp::NUMBER(38, 0),
+$1:drat::REAL,
+$1:wt::REAL,
+$1:qsec::REAL,
+$1:vs::NUMBER(38, 0),
+$1:am::NUMBER(38, 0),
+$1:gear::NUMBER(38, 0),
+$1:carb::NUMBER(38, 0)
+from @stg_ext_parquet 
+(file_format=>'ff_parq');
